@@ -497,5 +497,5 @@ C#以外にCLR上で動作する言語は以下のようなものがある。
     * [4][.NET Framework -CLR via C#-](https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-NET-Framework-%E7%AC%AC4%E7%89%88-Microsoft-Press/dp/4822294951)
 
 * 
-[](httpss://www.microsoft.com/japan/msdn/vs_previous/visualc/techmat/feature/jangrayhood/)
+[](https://www.microsoft.com/japan/msdn/vs_previous/visualc/techmat/feature/jangrayhood/)
 

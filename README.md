@@ -5,8 +5,8 @@ Slides
 
 ## Licence
 
-[MIT](httpss://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)
 
 ## Author
 
-[diadochos](httpss://github.com/diadochos)
+[diadochos](https://github.com/diadochos)
