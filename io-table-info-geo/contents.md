@@ -4,6 +4,12 @@ class: center, middle
 ---
 #### Preliminaries
 藤原彰夫, 『情報幾何学の基礎』. 牧野書店, 2015.
+
+#### Reference
+[1]森岡涼子と津田宏治, 「産業連関表の情報幾何(ネットワーク,テキスト・Webマイニング,一般)」, 電子情報通信学会技術研究報告. IBISML, 情報論的学習理論と機械学習, vol. 110, no. 476, pp. 161–167, 2011.
+[2]S. Amari, Information Geometry and Its Applications, vol. 194. 2016.
+[3]森岡涼子と津田宏治, 「情報幾何的分解に基づく地方産業連関表の将来推計」.
+
 ---
 
 ## 産業連関表
