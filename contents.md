@@ -1,8 +1,7 @@
 #### ![:scale 15%](image/profilepic.jpg) 
 #### Slides
-* [2017/03/31 信濃町情報幾何勉強会](io-table-info-geo/)
-* [sample02](sample02/)
-    * sample
+* [2017/03/31 信濃町情報幾何勉強会](io-table-info-geo/) (20170401追記：補足資料を追加しました)
+
 * [W理論 6.4節](w-theory-6-4/)
 
 * [Ideas and quotes](ideas/)
