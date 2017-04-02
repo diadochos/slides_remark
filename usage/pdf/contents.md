@@ -5,3 +5,5 @@ PDF化の仕方
     * 印刷ボタンを押す Press "print"
     * 使用するプリンタの変更ダイアログを出す Launch the dialog to choose which printer to use
     * 「PDFに保存」を選択 Choose "Save as a PDF"
+
+* Or Use [DeckTape](https://github.com/astefanutti/decktape)
