@@ -86,12 +86,9 @@ $\leadsto$ 収束先との差を$n$倍や$\sqrt{n}$倍などした後に，$n \t
 ---
 ### 6.4 ML and MAP 道筋
 今の場合，一致性は$\forall \epsilon > 0, \ P(K(\hat w\_n) > \epsilon) \to 0$をみる．
+漸近挙動は$R\_g := K(\hat w)$や$R\_t := K\_n(\hat w)$の挙動を見る.sup.red[\\*]
 
-漸近的な性質は，漸近正規性が無いと漸近分散のようなモデルから計算できる量が取れないので(なのか? @todo)，
-
-漸近挙動は$R\_g := K(\hat w)$や$R\_t := K\_n(\hat w)$の挙動を見る.red[*]
-
-.footnote[.red[*] $\hat w\_n - w\_0$ の漸近挙動ではなく$R\_g$の挙動を知りたいのは，$w\_0$に興味がないからだろう．]
+.footnote[.red[\\*] $\sqrt{n}(\hat w\_n - w\_0)$ の漸近挙動ではなく$R\_g$の挙動を知りたいのは，$w\_0$に興味がないからだろう．]
 
 $$
 \begin{split}
@@ -110,13 +107,18 @@ $$
 
 これは(サンプルの分布による積分ひいては)$\hat w\_n$という特異点を持つ集合($W\_0$)に確率収束をしていくような確率変数の分布での積分になっている．(check → @todo)
 
-$\hat w\_n$自身が分布収束しない.red[*]ので，積分の極限操作ができない．そのため，特異点を正規交差型に解消した方のパラメーター空間で
+$\hat w\_n$自身が分布収束しない.sup.red[[1]]ので，積分の極限操作ができない．そのため，特異点を正規交差型に解消した方のパラメーター空間で
 $$
 \xi\_n(u) := \sum\_{i=1}^n \frac{K(w) - f(X\_i, w)}{\sqrt{nK(w)}}
 $$
-を調べる(こちらは5章の定理から積分の極限移行ができる)．
+を調べる($\xi\_n$なら分布収束し，しかも積分の極限移行ができる.sup.red[[2]])．
 
-.footnote[.red[*] 特異点のせいで？check @todo]
+.footnote[
+.red[[1]] 特異点のせいで？check @todo
+
+.red[[2]] Why?
+]
+
 ---
 ## Reference
 [1] van der Vaart, A. W. Asymptotic Statistics. (Cambridge University Press, 2000).
