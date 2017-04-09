@@ -11,7 +11,7 @@ $$
 \begin{split}
 \hat w\_n &\in \mathop{\rm arg~min}\limits\_{w \in W} \sum\_{i=1}^n f(X\_i, w) + a\_n \sigma(w), \\\\
 \text{ここで} \\\\
-\\{a\_n\\}\_{n=1}^\infty&: \text{non-decreasing}, \\\\
+\\{a\_n\\}\_{n=1}^\infty&: \text{positive, non-decreasing}, \\\\
 \sigma(w) \geq 0&,\ \forall w \in W.
 \end{split}
 $$
@@ -22,7 +22,7 @@ $$
 \begin{split}
 \begin{cases}
 a\_n = 0&;\quad \sigma = (\text{なんでも}) &\leadsto \text{ML}, \\\\
-a\_n = 1&;\quad \sigma(w) = \log \varphi(w) - (\min_{w'}\log \varphi(w')) &\leadsto \text{MAP}
+a\_n = 1&;\quad \sigma(w) = - \log \varphi(w) - (\min_{w'}\log \varphi(w')) &\leadsto \text{MAP}
 \end{cases}
 \end{split}
 $$
@@ -122,3 +122,16 @@ $$
 ---
 ## Reference
 [1] van der Vaart, A. W. Asymptotic Statistics. (Cambridge University Press, 2000).
+
+---
+.center[![:scale 100%](image/4.png)]
+.center[![:scale 100%](image/5.png)]
+.center[![:scale 100%](image/6.png)]
+.center[![:scale 100%](image/7.png)]
+.center[![:scale 100%](image/8.png)]
+---
+$(t, v)$座標が最急降下法の軌跡に対応していることの確認
+.center[![:scale 100%](image/8.png)]
+直交するので，実は
+\frac{u\_{21} − (u^\∗\_1)^2}{2k\_1} = \frac{u\_2^2 − (u^\∗\_2)^2}{2k\_2}
+の曲線は$K$の等高線に各点で直交している．
