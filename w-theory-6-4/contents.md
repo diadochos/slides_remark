@@ -9,10 +9,10 @@ class: center, middle
 
 $$
 \begin{split}
-\hat w\_n &\in \mathop{\rm arg~min}\limits\_{w \in W} \sum\_{i=1}^n f(X\_i, w) + a\_n \sigma(w), \\\\
+\hat w\_n &\in \mathop{\rm arg~min}\limits\_{w \in W} \\{n K\_n(w) + a\_n \sigma(w)\\} \quad (=: R\_n^0(w)), \\\\
 \text{ここで} \\\\
-\\{a\_n\\}\_{n=1}^\infty&: \text{positive, non-decreasing}, \\\\
-\sigma(w) \geq 0&,\ \forall w \in W.
+\\{a\_n\\}\_{n=1}^\infty&: \text{non-negative, non-decreasing}, \\\\
+\sigma : W \to \mathbb{R}\_{\geq 0} &: C^\omega .
 \end{split}
 $$
 
@@ -22,11 +22,11 @@ $$
 \begin{split}
 \begin{cases}
 a\_n = 0&;\quad \sigma = (\text{なんでも}) &\leadsto \text{ML}, \\\\
-a\_n = 1&;\quad \sigma(w) = - \log \varphi(w) - (\min_{w'}\log \varphi(w')) &\leadsto \text{MAP}
+a\_n = 1&;\quad \sigma(w) = - \log \varphi(w) - (\min_{w'}(- \log \varphi(w'))) &\leadsto \text{MAP}
 \end{cases}
 \end{split}
 $$
-($\varphi$は事前分布.$\sigma(w)\geq 0$を仮定できるのは$K$がコンパクトだから)
+($\varphi$は事前分布.$\sigma(w)\geq 0$を仮定できるのは$K$がコンパクトかつ$\sigma$が連続だから)
 ---
 ### 6.4 ML and MAP 道筋
 まずはともあれ一致性を示す．
