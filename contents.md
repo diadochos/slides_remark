@@ -6,6 +6,8 @@
 
 * [Ideas and quotes](ideas/)
 
+* [関係データ](relational-data/)
+
 #### Usage
 [How to download slides as PDF](usage/pdf/)
 
