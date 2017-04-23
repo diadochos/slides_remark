@@ -8,7 +8,10 @@ deploy:
 
 s: server
 server:
+	livereloadx . & echo "$$!" > "./temp/livereloadx.pid"
 	php -S localhost:3000
+	kill -9 `cat ./temp/livereloadx.pid`
+	rm ./temp/livereloadx.pid
 
 pdf:
 	php -S localhost:3001 & echo "$$!" > "./decktape-temp.pid"
