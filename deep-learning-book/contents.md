@@ -97,7 +97,7 @@ Likewise...
 
 ---
 #### Some comments on the recipe
-- In case a cost function $J(w)$ takes time to calculate 
+- In case a cost function $J(w)$ takes time to calculate
 
     $\leadsto$ try approximating $\nabla J(w)$
 
@@ -110,9 +110,14 @@ Likewise...
 ---
 #### Examples of models with a hand-made optimizer
 - Decision tree
-    - 
+    - Decision of which feature to use is required: discrete parameter
+
+        $\leadsto$ No gradient based methods
+
 - k-means
-    - Discrete parameter (Cluster partition) $\leadsto$ No gradient based methods
+    - Discrete parameter (Cluster partition)
+
+        $\leadsto$ No gradient based methods
 
 ---
 ##### Decision tree (e.g. entropy as the impurity measure)
