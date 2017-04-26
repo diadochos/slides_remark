@@ -33,9 +33,8 @@ class: center, middle
 This section is just to help you organize in your mind many different machine learning ideas.
 
 ##### Recipe of learning machines
-Most models / algorithms etc. can be understood through this "recipe".
-.center[
 A learning machine =
+.center[
 1. Specification of a dataset +
 1. Model +
 1. Cost function +
@@ -97,13 +96,13 @@ Likewise...
 
 ---
 #### Some comments on the recipe
-- In case a cost function $J(w)$ takes time to calculate
+- Your cost function $J(w)$ takes time to calculate?
 
     $\leadsto$ try approximating $\nabla J(w)$
 
     $\leadsto$ (approximate) minimization of $J(w)$ by iterative methods.
 
-- In case an algorithm seems unique (doesn't fit the recipe)
+- Your algorithm seems unique (doesn't fit the recipe)?
 
   $\leadsto$ usually understood as using a special-case optimizer.
 
